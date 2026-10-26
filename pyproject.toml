@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "publicity-marketing-system"
+version = "0.1.0"
+description = "Plans campaigns and content calendars, tracks spend and results by channel, and suggests budget moves."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
